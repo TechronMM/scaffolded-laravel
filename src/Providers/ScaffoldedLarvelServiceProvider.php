@@ -2,11 +2,14 @@
 
 namespace KhantNyar\ScaffoldedLaravel\Providers;
 
+// namespace khantnyar\scaffolded-laravel\Providers;
+
+
 use Illuminate\Support\ServiceProvider;
 
 class ScaffoldedLarvelServiceProvider extends ServiceProvider
 {
-    protected $vendorName = 'khant-nyar';
+    protected $vendorName = 'khantnyar';
     protected $packageName = 'Scaffolded-laravel';
     /**
      * Register services.
